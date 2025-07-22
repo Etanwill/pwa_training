@@ -1,0 +1,36 @@
+.categoryList {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.categoryItem {
+  padding: 10px, 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:25%;
+  height: 30px;
+}
+
+.style {
+  background-color: #57c2ff31;
+}
+.categoryItem.food {
+  background-color: #da85c731;
+}
+.fashion {
+  background-color: #7fb88133;
+}
+.travel {
+  background-color: #ff795736;
+}
+.culture {
+  background-color: #ffb04f45;
+}
+.coding {
+  background-color: #5e4fff31;
+}

@@ -1,0 +1,18 @@
+import React from "react";
+import styles from "./blockPage.module.css";
+import CardList from "@/components/cardList/CardList";
+import Menu from "@/components/menu/Menu";
+
+function BlogPage() {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}> Style Blog</h1>
+      <div className={styles.content}>
+        <CardList></CardList>
+        <Menu />
+      </div>
+    </div>
+  );
+}
+
+export default BlogPage;
